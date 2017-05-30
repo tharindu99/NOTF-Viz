@@ -699,4 +699,15 @@ if (y_col.slice(0, 4) === 'date') {
 			'FIN_INF(52)', 'REALEST(53)', 'SERV(54)', 'MGMT(55)', 'ASWMR(56)',
 			'EDU(61)', 'HLTH(62)', 'A&E(71)', 'ACC_FOOD(72)', 'OTHER(81)',
 			'PUBADMIN(92)' ];
+} else if (y_col === 'naics_extrema'){
+	colLabel = [ 'AGR(11)_LMx', 'OIL_GAS(21)_LMx', 'UTIL(22)_LMx', 'CONSTR(23)_LMx',
+'MANUF(31)_LMx', 'MANUF(32)_LMx', 'MANUF(33)_LMx', 'TRADE(42)_LMx', 'RETAIL(44)_LMx',
+'RETAIL(45)_LMx', 'TRANS_WHR(48)_LMx', 'TRANS_WHR(49)_LMx', 'INF(51)_LMx',
+'FIN_INF(52)_LMx', 'REALEST(53)_LMx', 'SERV(54)_LMx', 'MGMT(55)_LMx', 'ASWMR(56)_LMx',
+'EDU(61)_LMx', 'HLTH(62)_LMx', 'A&E(71)_LMx', 'ACC_FOOD(72)_LMx',
+'AGR(11)_LMn', 'OIL_GAS(21)_LMn', 'UTIL(22)_LMn', 'CONSTR(23)_LMn',
+'MANUF(31)_LMn', 'MANUF(32)_LMn', 'MANUF(33)_LMn', 'TRADE(42)_LMn', 'RETAIL(44)_LMn',
+'RETAIL(45)_LMn', 'TRANS_WHR(48)_LMn', 'TRANS_WHR(49)_LMn', 'INF(51)_LMn',
+'FIN_INF(52)_LMn', 'REALEST(53)_LMn', 'SERV(54)_LMn', 'MGMT(55)_LMn', 'ASWMR(56)_LMn',
+'EDU(61)_LMn', 'HLTH(62)_LMn', 'A&E(71)_LMn', 'ACC_FOOD(72)_LMn' ];
 }
